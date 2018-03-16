@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-flow: column;
+	background-color: #a8a8a8;
+	justify-content:  center;
+	align-items:  center;
+	font-family: arial;
+}
+form{
+	display: flex;
+	flex-flow: column;
+	max-width: 24em;
+	line-height: 2.7em;
+	color: white;
+	width: 100%;
+}
+.utanum{
+	width: 100%;
+}
+.container{
+	max-width: 50em;
+	width:  100%;
+	display:  flex;
+	justify-content:  center;
+	align-items:  center;
+	border: 4px solid #e8e8e8;
+	background-color: #919191;
+	padding: 65px 0;
+	flex-flow: column;
+}
+input {
+    padding: 10px 15px;
+    font-size:  16px;
+}
+
+input[type="submit"],
+input[type="reset"],
+.tilbaka,
+.takki {
+    background-color: #a8a8a8;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    cursor: pointer;
+    margin: 0 8px;
+    margin-top: 25px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.tilbaka:hover,
+.takki:hover {
+	background-color: #919191;
+}
+form h3 {
+    margin-bottom: 5px;
+}
+.afrit p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 14px;
+}
+a.tilbaka,
+a.takki {
+    text-decoration:  none;
+    color: #fff;
+}
+.takkar.ta {
+    margin-top: 20px;
+}
+
+.utanum-t {
+    display:  flex;
+    flex-flow: column;
+    justify-content:  center;
+    align-items:  center;
+}
+h2{
+	color: #fff;
+}
